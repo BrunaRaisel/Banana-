@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+body {
+    background-color: rgb(255, 251, 191);
+    background-image: url(back.png);
+}
+
+#topo { 
+        background-color: rgb(255, 234, 42);
+        padding: 10px;
+        text-align: center;
+}
+
+
+
+#titulo {
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70PX;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+#Menu {
+    padding: 25px;
+
+}
+
+#topo a {
+    text-decoration: none;
+    font-family: "Titan One", sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    font-size: 25px;
+    
+}
+
+#topo a:link, #topo a:hover {
+    color: white;
+}
+
+/*corpo*/
+
+#principal {
+    width: 920px;
+    margin: 20px auto;
+    font-family: sans-serif;
+    clear: both;
+   
+
+}
+
+#postagens {
+        width: 660px;
+        float: left;
+        background-color: rgb(255, 255, 255);
+}
+
+
+.post{
+    margin: 20px;
+}
+
+.data {
+    display: block;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+}
+
+p {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+a {
+        font-family: sans-serif;
+        font-size: small;
+        padding: 0;
+        color: blue;
+        text-decoration: none;
+        
+    }
+
+a:hover{
+    color: black;
+}
+
+.menulateral {
+    width: 240px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-bottom: 20px;
+}
+
+.menulateral p {
+    font-size: 14px;
+    text-align: left;
+}
+
+h3 {
+    background-color: rgb(204, 204, 203);
+    padding: 3px;
+}
+
+.menulateral a{
+    font-size: 15px;
+}
+
+.postlateral{
+    padding: 20px;
+}
+
+.margem {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+
+/*fim*/
+
+#rodape {
+    
+    background-color: rgb(255, 234, 42) ;
+    text-align: center;
+    font-family: "Titan One", sans-serif;
+    padding: 12px;
+    clear: both;
+    
+   
+}
